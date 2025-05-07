@@ -14,6 +14,10 @@ driver = webdriver.Edge(service=service)
 
 url = "https://practicetestautomation.com/practice-test-login/"
 driver.get(url)
+
+title = driver.title
+print(title)
+
 username_enter = "student"
 Password_Enter = "Password123"
 username = driver.find_element(By.ID, value="username")
@@ -28,6 +32,8 @@ Expected_text = "Log out"
 assert Logout_text == Expected_text
 
 print("Session correct")
+
+
 
 # You might want to add a driver.quit() at the end to close the browser
 # driver.quit()
