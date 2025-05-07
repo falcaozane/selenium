@@ -4,7 +4,7 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
 
 # Specify the path to your msedgedriver.exe
-edge_driver_path = "F:\\edgedriver_win64\\msedgedriver.exe"  # Replace with the actual path to your msedgedriver.exe
+edge_driver_path = "E:\\QA\\selenium\\msedgedriver.exe"  # Replace with the actual path to your msedgedriver.exe
 
 # Create a Service object
 service = Service(executable_path=edge_driver_path)
